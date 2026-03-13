@@ -1,0 +1,9 @@
+App(
+    appid="lost_temple",
+    name="The Lost Temple",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="lost_temple_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="Games",
+)
